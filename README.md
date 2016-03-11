@@ -13,27 +13,42 @@ After Deployment:
 
 From Azure (ARM Portal)
 
+
 Set VNET for on premise AD DNS server
+
 Connect VNET S2S to on premise network (Partial Future Automation)
+
 Create NSG on Subnet 2 for Web Application Proxy servers(See Below Appendix A) (Future Automation)
+
 Assign backenaddress pools for ADFSILB using AVset-ADFS and ADFS01,02 (Future Automation)
+
 Assign backenaddress pools for PROXLB using AVset-PROX and PROX01,02 (Future Automation)
 
 
 On Servers: (Partial Future Automation)
 
+
 Install ADDS Role on ADDC01,02
+
 Configure ADDC01,02 to add a domain forest to existing domain
+
 Join ADFS01,02,SYN01 to domain
+
 on DSYN01 Install and configure directory sync using Azure AD Connect
+
 Install ADFS Role on ADFS01,02
+
 Configure ADFS
+
 Install WAP Role on ADFS01,02
+
 Configure WAP
 
 From Azure (ARM Portal)
 
+
 Remove PIP1-7 addresses once S2S is up and hybrid connectivity established
+
 Change VNET for Azure ADDC01,02 as AD DNS servers
 
 

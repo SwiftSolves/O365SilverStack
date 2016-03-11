@@ -166,7 +166,7 @@
     "O365-VNETSubnet1Prefix": "10.202.252.32/27",
     "O365-VNETSubnet2Name": "DMZ",
     "O365-VNETSubnet2Prefix": "10.202.252.64/27",
-    "o365storelrsName": "o365store",
+    "o365storelrsName": "o365storegrs",
     "MSImagePublisher": "MicrosoftWindowsServer",
     "MSImageOffer": "WindowsServer",
     "ADDC01OSDiskName": "ADDC01OSDisk",
@@ -1123,7 +1123,6 @@
             "properties": {
               "protocol": "Tcp",
               "port": 443,
-              "requestPath": "/",
               "intervalInSeconds": 5,
               "numberOfProbes": 2
             }

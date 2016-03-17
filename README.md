@@ -1,5 +1,5 @@
 # O365SilverStack
-This sample Azure ARM template will deploy a load balanced fault tolerant IaaS for o365 needs, the servers include, ADFS, WAP, ADDC, AAD Connect.
+This is a sample Azure ARM template that will deploy a layer 4 load balanced IaaS for o365 needs, the servers include, ADFS, WAP, ADDC, AAD Connect. This is a template to test drive Azure ARM Templates.
 
 v1 of this ARM one click deployment is the beginning to get as much as possible to a light touch deployment for ADDC,ADFS,WAP,AADCONNET servers for Azure AD \ Office 365. This can provide a load balanced solution for single sign on for your Azure AD \ Office 365 deployment. This should eliminate time spent on setting up and designing this solution. Click and head to lunch, return and the components are there and ready to be configured after some additional steps. There will be further development on my part to add automation through the ARM template and DSC for the servers in the next iteration.
 

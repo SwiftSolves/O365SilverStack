@@ -166,7 +166,7 @@
     "O365-VNETSubnet1Prefix": "10.202.252.32/27",
     "O365-VNETSubnet2Name": "DMZ",
     "O365-VNETSubnet2Prefix": "10.202.252.64/27",
-    "o365storelrsName": "[concat('o365', uniqueString(resourceGroup().id))]",
+    "o365storelrsName": "[concat(uniqueString(resourceGroup().id))]",
     "MSImagePublisher": "MicrosoftWindowsServer",
     "MSImageOffer": "WindowsServer",
     "ADDC01OSDiskName": "ADDC01OSDisk",
